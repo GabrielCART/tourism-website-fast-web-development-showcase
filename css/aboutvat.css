@@ -9,7 +9,7 @@ article{
 
 article div{
     width:90vw;
-    height: 30vh;
+  
     margin-bottom: -20px;
     padding: 15px;
     align-items: center;
@@ -43,7 +43,7 @@ article div p{
   
 
 article p.malice{
-    height: 8vh;
+ 
     width: 90vw;
     padding:15px;
     padding-bottom: 30px;
@@ -72,3 +72,38 @@ img.wrath {
 
 }
 
+@media screen and (max-width: 992px) {
+    article{
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        display: flex;
+        flex-direction:column;
+    }
+    article div{
+        width:90vw;
+      
+        margin-bottom: -20px;
+        margin-right: 20px;
+        padding: 15px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+img.wrath {
+    object-fit:cover;
+    width: 30vw;
+    height: 23vh;
+    margin: 0px 30px;
+}
+
+#hatred {
+    margin: 15px;
+    margin-top: -100px;
+    width: 200vw;
+
+}
+}
