@@ -148,8 +148,8 @@ header img{
     /* tablet */
     h1 {
         color:rgba(90, 150, 177, 1);
-        font-size: 100px;
-        height:120px;
+        font-size: 90px;
+        height:100px;
         font-family: Vollkorn;
         display: flex;
         align-items: center;
@@ -173,8 +173,8 @@ header img{
 @media screen and (max-width: 480px) {
     h1 {
         color:rgba(90, 150, 177, 1);
-        font-size: 100px;
-        height:120px;
+        font-size: 80px;
+        height:90px;
         font-family: Vollkorn;
         display: flex;
         align-items: center;
