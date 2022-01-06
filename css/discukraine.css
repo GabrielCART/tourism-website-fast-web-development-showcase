@@ -130,10 +130,10 @@
         border-radius: 5px;
     }
     #image1{
-        margin-right:15px;
+        margin-bottom:15px;
     }
     #image2{
-        margin-left: 15px;
+        margin-bottom: 15px;
     }
     article.secondary img{
         object-fit:cover;
@@ -196,6 +196,7 @@
         margin-top: 50px;
         justify-content: center;
         display:flex;
+        flex-direction: column;
     }
     article.secondary{
         width: 90vw;
@@ -209,7 +210,6 @@
     article.main img{
         object-fit: cover;
         align-self: stretch;
-        max-width:40vw;
         height: 40vh;
         max-height: 50vh;
         border-radius: 5px;
@@ -247,7 +247,7 @@
         color:#285B50;
         display: flex;
         font-family: Vollkorn;
-        font-size: 20px;
+        font-size: 30px;
         margin-left:5px;
         margin-right: 5px;
         margin-top:15px;
@@ -256,12 +256,11 @@
     }
     article.main p{
         color:rgba(90, 150, 177, 1);
-        font-size: 15px;
+        font-size: 20px;
         margin-bottom: auto;
         margin-left:25px;
         margin-right: 25px;
         margin-top:10px;
-        align-self: stretch;
     }
     article.secondary p{
         font-size: 20px;
@@ -269,7 +268,6 @@
         margin-left:25px;
         margin-right: 25px;
         margin-top:10px;
-        align-self: stretch;
         color:rgba(90, 150, 177, 1);
     }
 }

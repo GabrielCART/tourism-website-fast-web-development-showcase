@@ -1,6 +1,10 @@
+@media screen and (min-width:769px) and (max-width: 992px) {
+}
 p{
     color: rgba(74, 142, 170, 1);
     border: 1px solid;
     font-size: 25;
+    text-align: left
+    padding; text-align: left;
       
 }
