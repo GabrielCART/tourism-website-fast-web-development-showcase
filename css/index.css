@@ -40,9 +40,8 @@ article{
 }
 article img{
     object-fit: cover;
-    align-self: stretch;
     width:60vw;
-    height:25vw;
+    height:50vh;
     border-radius: 5px;
 }
 article div.main{
