@@ -113,7 +113,6 @@ article div.stupid{
         align-self: stretch;
     }
     article div.main{
-        width: auto;
         border-radius: 5px;
         border: 1px solid #285B50;
         display:flex;
