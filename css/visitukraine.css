@@ -121,3 +121,8 @@ input{
         margin-right: auto;
     }
 }
+@media screen and (max-width: 400px){
+    article section h4{
+        line-height: 30px;
+    }
+}

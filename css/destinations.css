@@ -9,11 +9,11 @@ article img{
     object-fit: cover;
     align-self: stretch;
     width:40vw;
-    height:25vw;
     border-radius: 5px;
 }
 article div.main{
-    margin-left: 125px;
+    margin-left: auto;
+    margin-right: auto;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ article p{
     font-size: 25px;
     margin-bottom: auto;
     margin-left:25px;
-    margin-right: 25px;
+    margin-right:25px;
     width:35vw;
     margin-top:10px;
     align-self: stretch;
@@ -59,7 +59,11 @@ article div.stupid{
     align-self: flex-end;
     justify-content: flex-end;
 }
-
+@media screen and (max-width:700px){
+    article img{
+        width:70vw;
+    }
+}
 @media screen and (max-width: 992px) {
     article{
         margin: 30px;
@@ -68,7 +72,6 @@ article div.stupid{
         justify-content: center;
         display:flex;
         flex-direction: column;
-
     }
 
     article h3{
@@ -88,8 +91,9 @@ article div.stupid{
     
     article img{ 
         /* image */
-        margin-right: -25px;
-        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
         object-fit: cover;
         align-self: center;
         width: 60vw;
@@ -109,9 +113,7 @@ article div.stupid{
         align-self: stretch;
     }
     article div.main{
- 
         width: auto;
-       
         border-radius: 5px;
         border: 1px solid #285B50;
         display:flex;
@@ -120,14 +122,8 @@ article div.stupid{
         align-self: center;
 
     }
-    article, article img{
-        margin-left: -1px;
-
-    }
     article a{
         margin-bottom: 15px;
-    
-  
         text-align: center;
         width: 110px;
         font-size: 22px;
