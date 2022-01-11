@@ -1,7 +1,5 @@
 article{
-    margin: 30px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px auto;
     justify-content: center;
     display:flex;
 }
@@ -66,9 +64,7 @@ article div.stupid{
 }
 @media screen and (max-width: 992px) {
     article{
-        margin: 30px;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin: 50px auto;
         justify-content: center;
         display:flex;
         flex-direction: column;
